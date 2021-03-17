@@ -1,0 +1,26 @@
+/* ========== Colors ========== */
+$primary: hsl(300, 43%, 22%);
+$secondary: hsl(333, 80%, 67%);
+
+$neutral-dark: hsl(303, 10%, 53%);
+$neutral-light: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+/* ========== Typography ========== */
+
+
+/* ========== Mixins ========== */
+
+// media-query
+@mixin d($device) {
+  @if $device == t {
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      @content;      
+    }
+  }
+  @else if $device == m {
+    @media only screen and (max-width: 767px) {
+      @content;      
+    }
+  }
+}
