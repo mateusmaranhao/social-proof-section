@@ -53,6 +53,8 @@ table {
   border-spacing: 0;
 }
 
+/* ========== Colors ========== */
+/* ========== Mixins ========== */
 * {
   margin: 0;
   padding: 0;
@@ -63,9 +65,63 @@ table {
 body {
   background: url(../assets/bg-pattern-top-desktop.svg) no-repeat top left, url(../assets/bg-pattern-bottom-desktop.svg) no-repeat bottom right;
   height: 100vh;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  width: 400px;
+  color: #502050;
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 80%;
+  margin: 6% auto 0;
+}
+
+.p-intro {
+  width: 450px;
+  line-height: calc(15px * 1.5);
+}
+
+.star-box {
+  width: 450px;
+  padding: 15px 20px;
+  position: relative;
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #502050;
+  font-weight: 700;
+}
+
+.star-box img {
+  margin-left: 8px;
+}
+
+.star-box span {
+  margin-left: 15px;
+}
+
+.star-box.first-box {
+  left: -100px;
+}
+
+.star-box.second-box {
+  left: -50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* ========== Colors ========== */
-/* ========== Typography ========== */
 /* ========== Mixins ========== */
 /*# sourceMappingURL=style.css.map */
