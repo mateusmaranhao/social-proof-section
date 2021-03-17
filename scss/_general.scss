@@ -68,7 +68,7 @@ h1 {
   &.first-box {
     left: -100px;
   }
-  
+
   &.second-box {    
     left: -50px;
   }
@@ -79,4 +79,53 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.testimony-box {
+  background-color: $primary;
+
+  width: 340px;
+  padding: 35px;
+
+  border-radius: 10px;
+
+  img {
+    border-radius: 50px;
+    height: 40px;
+    float: left;
+
+    margin-right: 30px;
+  }
+
+  p.name {
+    color: $white;
+    font-weight: 500;
+
+    margin-bottom: 10px;
+  }
+
+  p.tag {
+    color: $secondary;
+
+    font-size: 12px;
+  }
+
+  p.testimony {
+    color: $white;
+    margin-top: 30px;
+    clear: both;
+
+    font-size: 12px;
+    line-height: calc(12px * 1.5);
+  }
+
+  div.align {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.p-format {
+  display: flex;
+  flex-direction: column;
 }
