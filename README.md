@@ -16,7 +16,7 @@ Social Proof Section
 
 ## 📋 Sobre
 
-Esse site é um dos projetos disponibilizados pela plataforma [Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ).
+Esse site é um dos projetos disponibilizados pela plataforma [Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA).
 
 ---
 
