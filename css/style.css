@@ -69,6 +69,12 @@ body {
   overflow: hidden;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body {
+    overflow: visible;
+  }
+}
+
 h1 {
   font-size: 45px;
   font-weight: 700;
@@ -116,10 +122,32 @@ h1 {
   left: -50px;
 }
 
+@media only screen and (max-width: 1300px) {
+  .star-box {
+    margin-left: 20px;
+  }
+  .star-box.first-box, .star-box.second-box {
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .star-box {
+    margin: 20px 0 0;
+  }
+}
+
 .content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .testimony-box {
@@ -182,6 +210,15 @@ h1 {
 
 .align-testimony div.testimony-box.third-tbox {
   top: 100px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .align-testimony {
+    margin-top: 50px;
+  }
+  .align-testimony div.testimony-box.second-tbox, .align-testimony div.testimony-box.third-tbox {
+    top: 0;
+  }
 }
 
 /* ========== Colors ========== */

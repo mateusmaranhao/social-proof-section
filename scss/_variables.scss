@@ -14,10 +14,13 @@ $white: hsl(0, 0%, 100%);
     @media only screen and (min-width: 768px) and (max-width: 959px) {
       @content;      
     }
-  }
-  @else if $device == m {
+  } @else if $device == m {
     @media only screen and (max-width: 767px) {
       @content;      
+    }
+  } @else if $device == pc {
+    @media only screen and (max-width: 1300px) {
+      @content;
     }
   }
 }
